@@ -1,0 +1,41 @@
+html  {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url('images/halloween.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.container-fluid.top {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), transparent);
+
+    h1 {
+        display: inline-block;
+        background: linear-gradient(to right, orange, yellow);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Creepster';
+        font-size: 40px;
+    }
+}
+
+div.container.text {
+
+    p {
+        color: #fff;
+        font-family: '';
+    }
+}
+
+footer {
+    background: linear-gradient(to top, #000, transparent);
+}
